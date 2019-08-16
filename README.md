@@ -23,4 +23,12 @@ npm install
 npx electron .
 ```
 
-To distribute, run `npx create-electron-app dist`.
+To distribute, run 
+
+```
+npx create-electron-app dist
+cd dist 
+npx electron-forge make
+```
+
+And zip the folder dist\out\dist-win32-x64 to distribute it.
