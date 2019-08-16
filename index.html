@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Transparent Window</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    document.addEventListener("keydown", ({key}) => {
+      if (key == "F12")
+        require('electron').remote.getCurrentWindow().toggleDevTools();
+      else if (key == "F5")
+        location.reload();
+    })
+  </script>
+</head>
+
+<body>
+  <div class="frame">
+    <h1>Hallo!</h1>
+    <button id="drag">Drag</button>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "path-measurement-tool",
+  "version": "1.0.0",
+  "description": "A program to click a polygon on the desktop, enter a scale, and save the calculated distances. ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adabru/path-measurement-tool.git"
+  },
+  "keywords": [
+    "GIS",
+    "measuring"
+  ],
+  "author": "adabru",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/adabru/path-measurement-tool/issues"
+  },
+  "homepage": "https://github.com/adabru/path-measurement-tool#readme",
+  "dependencies": {
+    "electron": "^6.0.2"
+  }
+}
