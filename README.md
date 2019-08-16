@@ -6,12 +6,15 @@ A program to click a polygon on the desktop, enter a scale, and save the calcula
 
 Shortcuts:
 
-|---|---
-|`Z`|undo
-|`space`|new path
-|`Ctrl+N`|reset
+|Key|Function
+|---|---|
+|Z|undo|
+|space|new path|
+|Ctrl + N|reset|
 
 ## Development
+
+Install nodejs.
 
 Run in shell:
 
