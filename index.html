@@ -15,10 +15,20 @@
 </head>
 
 <body>
-  <div class="frame">
-    <h1>Hallo!</h1>
-    <button id="drag">Drag</button>
+  <div class="frame flex-column">
+    <div class="navbar flex-row">
+        <button id="drag">Drag</button>
+        <button id="close">X</button>
+    </div>
+    <div class="flex-row grow">
+      <canvas class="grow"></canvas>
+      <div class="flex-column">
+        <input placeholder="meters per pixel">
+        <textarea class="grow" readonly></textarea>
+      </div>
+    </div>
   </div>
+  <script src="app.js"></script>
 </body>
 
 </html>

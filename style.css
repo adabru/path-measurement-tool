@@ -2,10 +2,13 @@ body {
     margin: 0;
 }
 
-#drag {
+button#drag {
     -webkit-app-region: drag;
+    font-size: 24px;
+    flex-grow: 1;
+}
+button#close {
     width: 100px;
-    height: 100px;
 }
 
 div.frame {
@@ -13,4 +16,24 @@ div.frame {
     height: 100%;
     border: 1px solid black;
     box-sizing: border-box;
+}
+div.navbar {
+    height: 100px;
+}
+div.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+div.flex-row {
+    display: flex;
+}
+.grow {
+    flex-grow: 1;
+}
+input {
+    width: 100px;
+}
+textarea {
+    width: 100px;
+    cursor: copy;
 }
