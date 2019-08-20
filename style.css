@@ -18,7 +18,7 @@ div.frame {
     box-sizing: border-box;
 }
 div.navbar {
-    height: 100px;
+    height: 50px;
 }
 div.flex-column {
     display: flex;
