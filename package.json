@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/adabru/path-measurement-tool#readme",
   "dependencies": {
-    "electron": "^6.0.2"
+    "electron": "^9.1.0"
   }
 }
